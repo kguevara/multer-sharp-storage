@@ -1,7 +1,11 @@
 {
   "name": "multer-sharp-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multer storage with sharp image processor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kguevara/multer-sharp-storage.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +16,12 @@
     "image",
     "storage engine"
   ],
-  "author": "Kelwin Guevara (http://kelwinpr.com/)",
+  "author": [
+     {
+      "name": "Kelwin Guevara",
+      "url": "https://kelwinpr.com"
+     }
+  ],
   "license": "MIT",
   "files": [
     "LICENSE",
@@ -25,5 +34,12 @@
     "debug": "^4.1.1",
     "lodash": "^4.17.11",
     "sharp": "^0.22.0"
-  }
+  },
+  "devDependencies": {
+    "mocha": "^6.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/kguevara/multer-sharp-storage/issues"
+  },
+  "homepage": "https://github.com/kguevara/multer-sharp-storage"
 }
