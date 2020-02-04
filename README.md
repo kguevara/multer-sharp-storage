@@ -35,6 +35,10 @@ const app = express();
 const storage = sharpStorage({
 	output: 'png',
 	quality: 90,
+	sharpMiddleware: function (sharp) {
+		sharp.resize({width: 40, height: 80});
+		return sharp;
+	},
 	destination: function (req, file, cb) {
 		cb(null, 'storage/uploads')
 	},

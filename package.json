@@ -17,10 +17,10 @@
     "storage engine"
   ],
   "author": [
-     {
+    {
       "name": "Kelwin Guevara",
       "url": "https://kelwinpr.com"
-     }
+    }
   ],
   "license": "MIT",
   "files": [
@@ -32,11 +32,12 @@
   "dependencies": {
     "concat-stream": "^2.0.0",
     "debug": "^4.1.1",
-    "lodash": "^4.17.11",
-    "sharp": "^0.22.0"
+    "lodash": "^4.17.15",
+    "mkdirp": "^1.0.3",
+    "sharp": "^0.24.0"
   },
   "devDependencies": {
-    "mocha": "^6.1.2"
+    "mocha": "^7.0.1"
   },
   "bugs": {
     "url": "https://github.com/kguevara/multer-sharp-storage/issues"
