@@ -1,6 +1,6 @@
 {
   "name": "multer-sharp-storage",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Multer storage with sharp image processor",
   "repository": {
     "type": "git",
