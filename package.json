@@ -34,7 +34,7 @@
     "debug": "^4.1.1",
     "lodash": "^4.17.15",
     "mkdirp": "^1.0.3",
-    "sharp": "^0.24.0"
+    "sharp": "^0.30.5"
   },
   "devDependencies": {
     "mocha": "^7.0.1"
